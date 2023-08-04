@@ -1,304 +1,300 @@
 /* Fonts definitions */
 @font-face {
-    font-family: 'Gilroy';
-    src: url('font/Gilroy-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Gilroy";
+  src: url("font/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Gilroy Bold', sans-serif;
-    src: url('font/Gilroy-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-body {
-    background-color: #4d5457;
-    font-family: 'Gilroy';
+  font-family: "Gilroy Bold", sans-serif;
+  src: url("font/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
 }
 
 * {
-    font-family: 'Gilroy';
-    list-style: none;
-    text-decoration: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  font-family: "Gilroy", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body {
+  background-color: #4d5457;
 }
 
 /* Remove spinner from input:number */
 /* Chrome, Opera, Safari, Edge */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 /* Firefox only */
-input[type=number] {
-    appearance: textfield;
+input[type="number"] {
+  appearance: textfield;
 }
 
 .budget-container {
-    position: absolute;
-    width: 360px;
-    height: 780px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #003a4d;
+  position: absolute;
+  width: 360px;
+  height: 780px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #003a4d;
 }
 
 .budget-container .app-title,
 .budget-header .balance {
-    margin: 45px 0 0 20px;
+  margin: 45px 0 0 20px;
 }
 
 .budget-container .app-title a {
-    color: #fff;
+  color: #fff;
 }
 
 .budget-container .app-title a b {
-    font-family: 'Gilroy Bold', sans-serif;
+  font-family: "Gilroy Bold", sans-serif;
 }
 
 .budget-header .balance .title {
-    color: #fff;
-    font-size: 1em;
-    font-family: 'Gilroy Bold', sans-serif;
+  color: #fff;
+  font-size: 1em;
+  font-family: "Gilroy Bold", sans-serif;
 }
 
 .budget-header .balance .value {
-    color: #fff;
-    font-size: 2em;
-    margin-top: 10px;
-    font-family: 'Gilroy Bold', sans-serif;
+  color: #fff;
+  font-size: 2em;
+  margin-top: 10px;
+  font-family: "Gilroy Bold", sans-serif;
 }
 
 .budget-header .account {
-    display: block;
-    width: 310px;
-    margin: 35px auto 0;
-    line-height: 1.7em;
-    text-align: center;
+  display: block;
+  width: 310px;
+  margin: 35px auto 0;
+  line-height: 1.7em;
+  text-align: center;
 }
 
 .budget-header .account .income,
 .budget-header .account .chart,
 .budget-header .account .outcome {
-    height: 50px;
-    display: inline-block;
-    width: 100px;
-    vertical-align: middle;
+  height: 50px;
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
 }
 
 .budget-header .account .income .title,
 .budget-header .account .outcome .title {
-    color: #fff;
-    opacity: 0.5;
+  color: #fff;
+  opacity: 0.5;
 }
 
 .budget-header .account .income .income-total {
-    color: #fff;
-    font-family: 'Gilroy Bold', sans-serif;
+  color: #fff;
+  font-family: "Gilroy Bold", sans-serif;
 }
 
 .budget-header .account .outcome .outcome-total {
-    color: #ff2b39;
-    font-family: 'Gilroy Bold', sans-serif;
+  color: #ff2b39;
+  font-family: "Gilroy Bold", sans-serif;
 }
 
 /* Dashboard */
 .budget-dashboard {
-    display: block;
-    width: 360px;
-    height: 476px;
-    background-color: #fff;
-    margin-top: 44px;
-    border-radius: 40px 40px 0 0;
+  display: block;
+  width: 360px;
+  height: 476px;
+  background-color: #fff;
+  margin-top: 44px;
+  border-radius: 40px 40px 0 0;
 }
 
 .budget-dashboard .dashboard-title {
-    display: inline-block;
-    color: #003a4d;
-    font-size: 1.7em;
-    margin: 30px 0 0 20px;
-    font-family: 'Gilroy Bold', sans-serif;
+  display: inline-block;
+  color: #003a4d;
+  font-size: 1.7em;
+  margin: 30px 0 0 20px;
+  font-family: "Gilroy Bold", sans-serif;
 }
 
 .toogle-menu {
-    display: block;
-    margin: 30px 0 0 20px;
+  display: block;
+  margin: 30px 0 0 20px;
 }
 
 .toogle-menu .tab1,
 .toogle-menu .tab2,
 .toogle-menu .tab3 {
-    display: inline-block;
-    cursor: pointer;
-    font-size: 1.1em;
-    color: #001f34;
-    font-family: 'Gilroy Bold', sans-serif;
-    opacity: 0.4;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #001f34;
+  font-family: "Gilroy Bold", sans-serif;
+  opacity: 0.4;
+  padding-bottom: 4px;
 }
 
 .toogle-menu .tab2,
 .toogle-menu .tab3 {
-    margin-left: 10px;
-}
-
-.focus {
-    opacity: 1 !important;
+  margin-left: 10px;
 }
 
 .active {
-    font-family: 'Gilroy Bold', sans-serif;
-    opacity: 1 !important;
-    font-weight: bold;
+  font-family: "Gilroy Bold", sans-serif;
+  opacity: 1 !important;
+  border-bottom: 4px solid #001f34;
+  transition: 0.2s ease-out;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 /* Make the input selectable */
 .budget-dashboard input {
-    -webkit-user-select: auto;
-    -moz-user-select: auto;
-    -ms-user-select: auto;
-    user-select: auto;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
 }
 
 /* Common tab_styles  */
 .budget-dashboard #all,
 .budget-dashboard #expense,
 .budget-dashboard #income {
-    width: 360px;
-    height: 339px;
-    position: relative;
+  width: 360px;
+  height: 339px;
+  position: relative;
 }
 
 .budget-dashboard #all ul,
 .budget-dashboard #expense ul,
 .budget-dashboard #income ul {
-    width: 360px;
-    height: 285px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 20px;
-    overflow-x: auto;
+  width: 360px;
+  height: 285px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  overflow-x: auto;
 }
 
 .budget-dashboard #all ul.list li,
 .budget-dashboard #expense ul.list li,
 .budget-dashboard #income ul.list li {
-    position: relative;
-    font-size: 1em;
+  position: relative;
+  font-size: 1em;
 }
 
 .budget-dashboard #all ul.list li *,
 .budget-dashboard #expense ul.list li *,
 .budget-dashboard #income ul.list li * {
-    display: inline-block;
-    height: 30px;
-    vertical-align: middle;
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle;
 }
 
 .budget-dashboard #all ul.list li .entry,
 .budget-dashboard #expense ul.list li .entry,
 .budget-dashboard #income ul.list li .entry {
-    width: 250px;
-    height: auto;
-    padding-left: 20px;
-    margin-bottom: 10px;
-    word-break: break-word;
-    font-family: 'Gilroy Bold', sans-serif;
+  width: 250px;
+  height: auto;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  word-break: break-word;
+  font-family: "Gilroy Bold", sans-serif;
 }
 
 .budget-dashboard #expense ul.list li #edit,
 .budget-dashboard #income ul.list li #edit {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: 50px;
-    cursor: pointer;
-    background-image: url('img/edit_file_100px.png');
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 50px;
+  cursor: pointer;
+  background-image: url("img/edit_file_100px.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
 }
 
 .budget-dashboard #all ul.list li #delete,
 .budget-dashboard #expense ul.list li #delete,
 .budget-dashboard #income ul.list li #delete {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    right: 20px;
-    cursor: pointer;
-    background-image: url('img/remove_100px.png');
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-image: url("img/remove_100px.png");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
 }
 
 .budget-dashboard #expense .new-elt,
 .budget-dashboard #income .new-elt {
-    position: absolute;
-    display: block;
-    width: 360px;
-    bottom: 0;
-    border-top: 1px solid #ccc;
+  position: absolute;
+  display: block;
+  width: 360px;
+  bottom: 0;
+  border-top: 1px solid #ccc;
 }
 
 .budget-dashboard #expense .new-elt *,
 .budget-dashboard #income .new-elt * {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 }
-
 
 .budget-dashboard #expense .new-elt input#expense-title,
 .budget-dashboard #income .new-elt input#income-title,
 .budget-dashboard #expense .new-elt input#expense-amount,
 .budget-dashboard #income .new-elt input#income-amount {
-    height: 40px;
-    padding-left: 10px;
-    font-size: 1.2em;
-    font-family: 'Gilroy', sans-serif;
-    border: none;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 1.2em;
+  font-family: "Gilroy", sans-serif;
+  border: none;
 }
 
 .budget-dashboard #expense .new-elt input#expense-title,
 .budget-dashboard #income .new-elt input#income-title {
-    margin: 5px 5px 5px 10px;
-    width: 172px;
+  margin: 5px 5px 5px 10px;
+  width: 172px;
 }
 
 .budget-dashboard #expense .new-elt input#expense-amount,
 .budget-dashboard #income .new-elt input#income-amount {
-    margin: 5px 5px 5px -5px;
-    width: 96px;
+  margin: 5px 5px 5px -5px;
+  width: 96px;
 }
 
 .budget-dashboard #expense .new-elt .add-expense img,
 .budget-dashboard #income .new-elt .add-income img {
-    height: 40px;
-    width: 40px;
-    cursor: pointer;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
 }
 
 /* All_tab of the dashboard (Incomes + Expenses) */
 .budget-dashboard #all ul.list li #edit {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .budget-dashboard #all ul.list li.expense {
-    color: #ff2b39;
+  color: #ff2b39;
 }
 
 /* Expenses_tab of the dashboard */
 .budget-dashboard #expense ul.list li .entry {
-    color: #ff2b39;
+  color: #ff2b39;
 }

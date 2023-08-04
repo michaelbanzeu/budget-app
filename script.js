@@ -25,8 +25,8 @@ const incomeAmount = document.querySelector("#income-amount");
 const addIncome = document.querySelector(".add-income");
 
 // Variables
-var ENTRY_LIST;
-var balance = 0, income = 0, outcome = 0;
+let ENTRY_LIST;
+let balance = 0, income = 0, outcome = 0;
 
 const DELETE = "delete", EDIT = "edit";
 
